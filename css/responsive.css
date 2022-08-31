@@ -1,0 +1,98 @@
+@media screen and (max-width: 570px) {
+  .container {
+    width: 100%;
+  }
+  .container header {
+    width: 100%;
+  }
+  .container header .container__header {
+    width: 100%;
+  }
+  .container header .container__header nav.storeIndonesiaNav {
+    display: none;
+  }
+  .container section.banner__storeIndonesia {
+    width: 100%;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia {
+    width: 100%;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia {
+    min-height: 100vh;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .btn__group {
+    top: 45%;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images {
+    width: 100%;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title {
+    width: 100%;
+    padding: 0px 10px;
+    left: 0px;
+  }
+  .container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title h1 {
+    font-size: 28px;
+  }
+  .container section.gallery__products {
+    padding: 50px 10px;
+  }
+  .container section.gallery__products .container__gallery__products {
+    width: 100%;
+  }
+  .container section.gallery__products .container__gallery__products .logo__brands {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container section.gallery__products .container__gallery__products .logo__brands img {
+    margin: 10px 15px;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products {
+    width: 100%;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery {
+    width: 100%;
+    margin: 0px;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery img.gallery {
+    width: 100px;
+    height: 150px;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery img {
+    margin: 10px;
+  }
+  .container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery .desc__galery__one {
+    margin: 0px;
+  }
+  .container section.products {
+    padding: 50px 10px;
+  }
+  .container section.products .container__products {
+    width: 100%;
+  }
+  .container section.products .container__products .row__products .btn__group__products {
+    width: 100%;
+  }
+  .container section.all__products {
+    padding: 50px 10px;
+  }
+  .container section.all__products .container__all__products {
+    width: 100%;
+  }
+  .container section.all__products .container__all__products .row__all__products .box__All__Products {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

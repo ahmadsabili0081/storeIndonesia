@@ -1,0 +1,96 @@
+@media screen and (max-width:570px) {
+  .container{
+    width: 100%;
+    header{
+      width: 100%;
+      .container__header{
+        width: 100%;
+        nav.storeIndonesiaNav{
+          display: none;
+        }
+      }
+    }
+    section.banner__storeIndonesia{
+      width: 100%;
+      .container__storeIndonesia{
+        width: 100%;
+        .row__storeIndonesia{
+          min-height: 100vh;
+          .btn__group{
+            top: 45%;
+          }
+          .box__images{
+            width: 100%;
+            .banner__title{
+              width: 100%;
+              padding: 0px 10px;
+              left:0px;
+              h1{
+                font-size: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section.gallery__products{
+      padding: 50px 10px;
+      .container__gallery__products{
+        width: 100%;
+        .logo__brands{
+          flex-wrap: wrap;
+          justify-content: center;
+          img{
+            margin: 10px 15px;
+          }
+        }
+        .row__gallery__products{
+          width: 100%;
+          .box__wrapper__gallery__products{
+            flex-wrap: wrap;
+            .box__gallery{
+              width: 100%;
+              margin: 0px;
+              img.gallery{
+                width: 100px;
+                height: 150px;
+              }
+            }
+          }
+          .box__One__Gallery{
+           flex-wrap: wrap;
+           padding: 10px;
+           img{
+            margin: 10px;
+           }
+           .desc__galery__one{
+            margin: 0px;
+           }
+          }
+        }
+      }
+    }
+    section.products{
+      padding: 50px 10px;
+      .container__products{
+        width: 100%;
+        .row__products{
+          .btn__group__products{
+            width: 100%;
+          }
+        }
+      }
+    }
+    section.all__products{
+      padding: 50px 10px;
+      .container__all__products{
+        width: 100%;
+        .row__all__products{
+          .box__All__Products{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

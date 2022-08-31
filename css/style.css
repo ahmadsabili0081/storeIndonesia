@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container header {
+  width: 100%;
+  position: absolute;
+  padding: 2%;
+  top: 0;
+  z-index: 30;
+}
+
+.container header .container__header {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .container__header .logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
+
+.container header .container__header nav.storeIndonesiaNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .container__header nav.storeIndonesiaNav ul li.storeIndonesiaNav__list {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container header .container__header nav.storeIndonesiaNav ul li.storeIndonesiaNav__list a.storeIndonesiaNav__list__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container section.banner__storeIndonesia {
+  width: 100%;
+  max-height: 100vh;
+  position: relative;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia {
+  max-width: 1365px;
+  margin: 0px auto;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 630px;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .btn__group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 20;
+  padding: 0px 10px;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .btn__group button {
+  display: block;
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title {
+  width: 500px;
+  position: absolute;
+  z-index: 30;
+  bottom: 60px;
+  left: 100px;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title h1 {
+  margin: 10px 0px;
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title span.price__banner {
+  line-height: 1.5;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images .banner__title span.rating__banner {
+  display: block;
+  margin: 10px 0px;
+  color: #fff;
+}
+
+.container section.banner__storeIndonesia .container__storeIndonesia .row__storeIndonesia .box__images::after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.container section.gallery__products {
+  padding: 50px 0px;
+  position: relative;
+}
+
+.container section.gallery__products .container__gallery__products {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container section.gallery__products .container__gallery__products .logo__brands {
+  margin: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section.gallery__products .container__gallery__products .logo__brands img {
+  width: 100px;
+  height: 100px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery {
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 0px 10px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery .desc__galery {
+  margin: 0px 30px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__wrapper__gallery__products .box__gallery .desc__galery button.detail {
+  display: block;
+  padding: 12px 30px;
+  margin: 15px 0px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery {
+  width: 100%;
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery .desc__galery__one {
+  margin: 0px 30px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery .desc__galery__one span.description {
+  display: block;
+  margin: 10px 0px;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery .desc__galery__one span.price__gallery__one {
+  display: block;
+}
+
+.container section.gallery__products .container__gallery__products .row__gallery__products .box__One__Gallery .desc__galery__one button.buying {
+  display: block;
+  padding: 12px 30px;
+  margin: 15px 0px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container section.products {
+  padding: 100px 0px;
+  position: relative;
+}
+
+.container section.products .container__products {
+  max-width: 1200px;
+  margin: 0px auto;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.container section.products .container__products .row__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 20px;
+  position: relative;
+}
+
+.container section.products .container__products .row__products .box__products {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+  padding: 20px;
+}
+
+.container section.products .container__products .row__products .box__products img {
+  width: 100%;
+  height: 200px;
+}
+
+.container section.products .container__products .row__products .box__products .titleProducts h3.title_products {
+  height: 90px;
+  overflow: hidden;
+}
+
+.container section.products .container__products .row__products .box__products .titleProducts button.addCart {
+  display: block;
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 12px 0px;
+}
+
+.container section.products .container__products .row__products::-webkit-scrollbar {
+  display: blocks;
+}
+
+.container section.all__products {
+  padding: 50px 0px;
+}
+
+.container section.all__products .container__all__products {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container section.all__products .container__all__products .row__all__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.container section.all__products .container__all__products .row__all__products .box__All__Products {
+  width: 300px;
+  height: auto;
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+.container section.all__products .container__all__products .row__all__products .box__All__Products img {
+  width: 100%;
+  height: 200px;
+}
+
+.container section.all__products .container__all__products .row__all__products .box__All__Products .box__all__products__text {
+  height: 200px;
+  margin: 20px 0px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container section.all__products .container__all__products .row__all__products .box__All__Products .box__all__products__text h3.title__all__products {
+  height: 90px;
+  overflow: hidden;
+}
+
+.container section.all__products .container__all__products .row__all__products .box__All__Products .box__all__products__text button.addCart {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border: none;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes name {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes name {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
